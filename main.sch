@@ -34,7 +34,7 @@ LIBS:valves
 LIBS:stf202-22
 LIBS:MCU_Microchip_AVR
 LIBS:analog_devices
-LIBS:_div
+LIBS:ltc4415
 LIBS:main-cache
 EELAYER 25 0
 EELAYER END
@@ -526,17 +526,6 @@ F 1 "+5VD" H 5870 2000 50  0000 C CNN
 F 2 "" H 5870 1860 50  0001 C CNN
 F 3 "" H 5870 1860 50  0001 C CNN
 	1    5870 1860
-	1    0    0    -1  
-$EndComp
-$Comp
-L LTC4415 U1
-U 1 1 5CA2B328
-P 2440 2770
-F 0 "U1" H 2790 3270 60  0000 C CNN
-F 1 "LTC4415" H 2190 3270 60  0000 C CNN
-F 2 "Housings_DFN_QFN:DFN-16-1EP_3x5mm_Pitch0.5mm" H 2440 2820 60  0001 C CNN
-F 3 "" H 2440 2820 60  0000 C CNN
-	1    2440 2770
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1050,4 +1039,17 @@ Text Label 2510 4170 0    60   ~ 0
 ON
 Text Label 9130 2990 2    60   ~ 0
 ON
+Text Notes 470  7800 0    60   ~ 0
+Copyright Listofoptions (James M.) 2019.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.2. You may redistribute and modify this documentation under the\nterms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is\ndistributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.\nPlease see the CERN OHL v.1.2 for applicable conditions
+$Comp
+L LTC4415 U1
+U 1 1 5CA24DB7
+P 2440 2770
+F 0 "U1" H 2790 3270 60  0000 C CNN
+F 1 "LTC4415" H 2190 3270 60  0000 C CNN
+F 2 "Housings_DFN_QFN:DFN-16-1EP_3x5mm_Pitch0.5mm" H 2440 2820 60  0001 C CNN
+F 3 "" H 2440 2820 60  0000 C CNN
+	1    2440 2770
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

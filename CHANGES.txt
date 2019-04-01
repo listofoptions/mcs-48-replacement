@@ -1,0 +1,8 @@
+31/03/2019
+        - initial commit and creation
+        
+01/31/2019
+        - cleaned up differential traces
+        - added legal shenanigans
+        - added status leds
+        

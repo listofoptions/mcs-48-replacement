@@ -1,4 +1,4 @@
-update=03/31/2019 19:48:49
+update=04/01/2019 12:31:44
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -64,4 +62,6 @@ LibName32=valves
 LibName33=libraries/stf202-22
 LibName34=libraries/MCU_Microchip_AVR
 LibName35=analog_devices
-LibName36=libraries/_div
+LibName36=libraries/ltc4415
+[general]
+version=1
