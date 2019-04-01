@@ -1,0 +1,32 @@
+Source:	C:\Users\jamahoney\Dropbox\projects\8749 replacement\main.sch
+Date:	04/01/2019 05:41:08
+Tool:	Eeschema 4.0.7
+Component Count:	27
+Ref	Value	Part	Footprint	Description	Vendor
+C1	0u1	device:C_Small	Capacitors_SMD:C_0201	Unpolarized capacitor	
+C2	22p	device:C_Small	Capacitors_SMD:C_0201	Unpolarized capacitor	
+C3	22p	device:C_Small	Capacitors_SMD:C_0201	Unpolarized capacitor	
+C4	1u	device:C_Small	Capacitors_SMD:C_0201	Unpolarized capacitor	
+C5	0u1	device:C_Small	Capacitors_SMD:C_0201	Unpolarized capacitor	
+C6	0u1	device:C_Small	Capacitors_SMD:C_0201	Unpolarized capacitor	
+C7	0u1	device:C_Small	Capacitors_SMD:C_0201	Unpolarized capacitor	
+C8	4u7	device:C_Small	Capacitors_SMD:C_0201	Unpolarized capacitor	
+C9	4u7	device:C_Small	Capacitors_SMD:C_0201	Unpolarized capacitor	
+C10	4u7	device:C_Small	Capacitors_SMD:C_0201	Unpolarized capacitor	
+D1	PWR	device:LED_Small_ALT	LEDs:LED_0402	LED, small symbol, alternativ symbol	
+D2	PWR	device:LED_Small_ALT	LEDs:LED_0402	LED, small symbol, alternativ symbol	
+J1	USB_OTG	conn:USB_OTG	Connectors_USB:USB_Micro-B_Molex-105017-0001	USB mini/micro connector	
+J2	MCS-48 PINS	conn:Conn_02x20_Counter_Clockwise	Housings_DIP:DIP-40_W15.24mm	Generic connector, double row, 02x20, counter clockwise pin numbering scheme (similar to DIP packge numbering)	
+J3	SPI	conn:Conn_01x04	Pin_Headers:Pin_Header_Straight_1x04_Pitch1.00mm	Generic connector, single row, 01x04	
+J4	EXT2	conn:Conn_01x03	Pin_Headers:Pin_Header_Straight_1x03_Pitch1.00mm	Generic connector, single row, 01x03	
+J5	EXT1	conn:Conn_01x04	Pin_Headers:Pin_Header_Straight_1x04_Pitch1.00mm	Generic connector, single row, 01x04	
+R1	10K	device:R_Small	Resistors_SMD:R_0402	Resistor, small symbol	
+R2	1K	device:R_Small	Resistors_SMD:R_0402	Resistor, small symbol	
+R3	1K	device:R_Small	Resistors_SMD:R_0402	Resistor, small symbol	
+R4	250	device:R_Small	Resistors_SMD:R_0402	Resistor, small symbol	
+R5	250	device:R_Small	Resistors_SMD:R_0402	Resistor, small symbol	
+SW1	SW_SPST	switches:SW_SPST	Buttons_Switches_SMD:SW_SPST_B3U-3000P	Single Pole Single Throw (SPST) switch	
+U1	LTC4415	_div:LTC4415	Housings_DFN_QFN:DFN-16-1EP_3x5mm_Pitch0.5mm		
+U2	STF202-22	stf202-22:STF202-22	Housings_SSOP:TSOP-6_1.65x3.05mm_Pitch0.95mm		
+U5	AT90USB1286-AU	MCU_Microchip_AVR:AT90USB1286-AU	Housings_DFN_QFN:QFN-64-1EP_9x9mm_Pitch0.5mm		
+Y1	16Mhz	device:Crystal_GND23_Small	Crystals:Crystal_SMD_2016-4pin_2.0x1.6mm	Two pin crystal, two ground/package pins (pin2 and 3) small symbol	
