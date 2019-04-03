@@ -1613,11 +1613,6 @@
       (net 65 "Net-(C2-Pad2)"))
     (pad 2 smd rect (at 0.26 0 180) (size 0.28 0.43) (layers F.Cu F.Paste F.Mask)
       (net 43 /XTAL+))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0201.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (gr_text BOOT (at 136.40308 102.36708) (layer F.SilkS)
