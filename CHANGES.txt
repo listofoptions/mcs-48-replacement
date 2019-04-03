@@ -10,3 +10,5 @@
 	- improved ground plane
 	- added beefier supply caps
 	- text on pins
+	- improved routing on differential signals and some others
+	- added NO jumper on xtal-1 pin for programming bootloader
